@@ -16,14 +16,15 @@ export default function Meaning(props) {
                 </div>
                 <div className="example">
                <em>{definition.example}</em>
+               </div>
                 <Synonyms synonyms={definition.synonyms} />
                 </div>
             );
         })}
         </div>
+    );
         }
         
-    );
+    
 
     
-}
